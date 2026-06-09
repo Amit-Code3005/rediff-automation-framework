@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="rediff-advanced-framework(failed)">
+    <classes>
+      <class name="tests.RediffTest">
+        <methods>
+          <include name="createAccountTest"/>
+          <include name="setup"/>
+          <include name="termsWindowTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- tests.RediffTest -->
+    </classes>
+  </test> <!-- rediff-advanced-framework(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
